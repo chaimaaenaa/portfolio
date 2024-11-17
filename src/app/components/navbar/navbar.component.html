@@ -1,0 +1,16 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <h1 class="logo">Chaimaa Mekayssi</h1>
+    <button class="menu-toggle" (click)="toggleMenu()">
+      <span class="menu-icon"></span>
+    </button>
+    <ul class="nav-links" [class.active]="isMenuOpen">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#education">Formation</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
